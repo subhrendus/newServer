@@ -1,6 +1,6 @@
 ---
 logging:
-  app_name: upServer
+  app_name: newServer
   app_version: 0.0.1
   level: debug
 service:

@@ -8,8 +8,8 @@ import (
 	"github.com/gorilla/mux"
 
 
-	"bitbucket.org/subhrendu_sarkar/uploadserver/src/config"
-	"bitbucket.org/subhrendu_sarkar/uploadserver/src/controllers"
+	"github.com/subhrendus/newServer/config"
+	"github.com/subhrendus/newServer/controllers"
 )
 
 // PORT - The default port no, used config doesn't have a port no defined.

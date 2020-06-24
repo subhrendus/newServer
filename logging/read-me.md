@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crunchyroll/evs-common/logging"
+	"github.com/subhrendus/newServer/logging"
 )
 
 func main() {

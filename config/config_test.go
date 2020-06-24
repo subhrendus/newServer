@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "bitbucket.org/subhrendu_sarkar/uploadserver/src/config"
+	. "github.com/subhrendus/newServer/config"
 )
 
 var _ = Describe("Config", func() {

@@ -1,4 +1,4 @@
-APPNAME := upServer
+APPNAME := newServer
 
 all: clean build setup-specs run-specs
 
