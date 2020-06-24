@@ -1,6 +1,9 @@
 # newServer
-# TO build and run
+# Build
 make build
+
+# Run
 make run
+
 
 
