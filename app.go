@@ -9,7 +9,6 @@ import (
 
 
 	"github.com/subhrendus/newServer/config"
-	//"github.com/subhrendus/newServer/controllers"
 )
 
 // PORT - The default port no, used config doesn't have a port no defined.
