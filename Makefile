@@ -15,7 +15,7 @@ setup-specs:
 
 # for running the unit tests in the local machine as well as in the build machine
 run-specs:
-	gginkgo -r --race --randomizeAllSpecs --randomizeSuites --failOnPending --cover --race -trace
+	ginkgo -r --race --randomizeAllSpecs --randomizeSuites --failOnPending --cover --race -trace
 	go tool cover -html=coverage.out
 	
 test-coverage:

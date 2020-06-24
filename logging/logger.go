@@ -31,10 +31,7 @@ type LogInterface interface {
 type LogConfig struct {
 	AppName    string
 	AppVersion string
-	EngGroup   string
 
-	// 'development', 'proto', 'staging' & 'prod'
-	Environment string
 
 	// DEBUG, INFO, WARN, ERROR
 	Level string
@@ -72,8 +69,6 @@ func New(config *LogConfig) (Logger, error) {
 	return Logger{contextData: log.Fields{
 		"app-name":    config.AppName,
 		"app-version": config.AppVersion,
-		"eng-group":   config.EngGroup,
-		"env":         config.Environment,
 	}, logger: logger}, nil
 }
 

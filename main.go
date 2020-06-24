@@ -9,7 +9,7 @@ func main() {
 
 	//read the value for config into configPath var
 	//if no value is given, 'config/config.yml' is the default
-	flag.Stringvar(&configPath, "config", "config/config.yml", "location for config YAML file")
+	flag.StringVar(&configPath, "config", "config/config.yml", "The location for the config YAML file.")
 
 	api := App{}
 	api.Initialize(configPath)
